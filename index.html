@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<script>
+	function myCart(){
+		var tbl=document.getElementById('cart');
+		var row=tbl.insertRow();
+		var cell1=row.insertCell();
+		var cell2=row.insertCell();
+		var cell3=row.insertCell();
+		var cell4=row.insertCell();
+		cell1.innerHTML="Mouse";
+		cell2.innerHTML="1";
+		cell3.innerHTMl="3";
+		cell4.innerHTML="350rs";
+
+		
+	}
+	
+	
+	</script>
+<title>My cart</title>
+<body>
+	<h2>My Shopping cart</h2>
+	<input type="button" value="MyCart" onClick="myCart();">
+	<table border="1" id="cart">
+		<tr>
+			<td>ProductName</td>
+			<td>ProductId</td>
+			<td>Quantity</td>
+			<td>Price</td>
+		</tr>
+	</table>
+</body>
+	</head>
+</html>

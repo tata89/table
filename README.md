@@ -1,2 +1,1 @@
-# table
-dynamic_table
+# dynamic_table
